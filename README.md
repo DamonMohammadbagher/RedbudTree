@@ -4,7 +4,7 @@ DNS IPv6 Request Listener (UDP Port 53) for Detecting Exfiltration DATA via IPv6
 i will Publish article for this tool soon.
 
 step 1:         
-/// for using "Listener Mode" UDP Port 53 should be opened before using this tool.         
+/// for using "Listening Mode" UDP Port 53 should be opened before using this tool.         
 /// windows command for opening UDP port 53 is :  
 /// netsh advfirewall firewall add rule name="UDP 53" dir=in action=allow protocol=UDP localport=53
 
