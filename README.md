@@ -8,7 +8,7 @@ step 1:
 /// windows command for opening UDP port 53 is :  
 /// netsh advfirewall firewall add rule name="UDP 53" dir=in action=allow protocol=UDP localport=53
 
-Note: step 1 is ((Dumping DATA via IPv6 Requests , attacker side))
+Note: step "1" is for attacker side
 
 step 2:         
 /// Compiling C# Code.         
