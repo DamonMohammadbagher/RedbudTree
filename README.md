@@ -1,7 +1,7 @@
 # RedbudTree
 DNS IPv6 Request Listener (UDP Port 53) for Detecting Exfiltration DATA via IPv6 DNS AAAA Record Requests
 
-i will Publish this C# Code and article for this tool soon
+i will Publish article for this tool soon
 
 step 1:         
 /// for using "Listener Mode" UDP Port 53 should be opened before using this tool.         
