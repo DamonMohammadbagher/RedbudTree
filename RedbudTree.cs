@@ -112,8 +112,7 @@ namespace RedbudTree
                 Console.Write(UTF8Encoding.ASCII.GetChars(RAW));
                 Console.WriteLine();                
             }
-           
-            Console.WriteLine();
+                       
             Console.ForegroundColor = ConsoleColor.Gray;         
         }
         public static void Create_IPv6_Address(string input_Exfil_String_DATA ,bool _isFile)
