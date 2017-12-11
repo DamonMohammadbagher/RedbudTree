@@ -2,7 +2,7 @@
 ![](https://github.com/DamonMohammadbagher/RedbudTree/blob/master/Pic.jpg)
 DNS IPv6 Request Listener (UDP Port 53) for Detecting Exfiltration DATA via IPv6 DNS AAAA Record Requests.
 
-Video : https://www.youtube.com/watch?v=9jiry5b-oPo
+Video (step by step) : https://www.youtube.com/watch?v=9jiry5b-oPo
 
 i will Publish article for this tool soon.
 
