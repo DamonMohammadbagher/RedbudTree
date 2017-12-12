@@ -112,7 +112,8 @@ namespace RedbudTree
                 Console.Write(UTF8Encoding.ASCII.GetChars(RAW));
                 Console.WriteLine();                
             }
-                       
+           
+           
             Console.ForegroundColor = ConsoleColor.Gray;         
         }
         public static void Create_IPv6_Address(string input_Exfil_String_DATA ,bool _isFile)
@@ -231,23 +232,13 @@ namespace RedbudTree
             }
             else if (args.Length == 0)
             {
+                
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("[!] UDP Port 53 Listening Mode");
                 Console.ForegroundColor = ConsoleColor.Gray;
-                while (true)
-                {
-                    try
-                    {
-                        UDP_53_Init.BeginReceive(Async_UDP_Data_Receive, new object());
-                        System.Threading.Thread.Sleep(1000);
-                    }
-                    catch (Exception omg)
-                    {
-                        Console.WriteLine("[!] Maybe you need to this command before Running RedBudTree \"Listening Mode\" :");
-                        Console.WriteLine("[!] netsh advfirewall firewall add rule name=\"UDP 53\" dir=in action=allow protocol=UDP localport=53");
-                        Console.WriteLine("[X] " + omg.Message);
-                    }
-                }
+                System.Threading.Thread Exec = new System.Threading.Thread(new System.Threading.ThreadStart(T));
+                Exec.Priority = System.Threading.ThreadPriority.AboveNormal;
+                Exec.Start();               
             }
             else
             {
@@ -271,6 +262,23 @@ namespace RedbudTree
                 Console.WriteLine("[!] Example3: RedbudTree.exe ");
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Gray;
+            }
+        }
+        public static void T()
+        {
+            while (true)
+            {
+                try
+                {
+                    UDP_53_Init.BeginReceive(Async_UDP_Data_Receive, new object());
+                    System.Threading.Thread.Sleep(1000);
+                }
+                catch (Exception omg)
+                {
+                    Console.WriteLine("[!] Maybe you need to this command before Running RedBudTree \"Listening Mode\" :");
+                    Console.WriteLine("[!] netsh advfirewall firewall add rule name=\"UDP 53\" dir=in action=allow protocol=UDP localport=53");
+                    Console.WriteLine("[X] " + omg.Message);
+                }
             }
         }
     }
