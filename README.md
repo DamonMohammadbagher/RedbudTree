@@ -7,6 +7,7 @@ Video (step by step) : https://www.youtube.com/watch?v=9jiry5b-oPo
 bsdmag.org PDF Download , PDF File BSD-Magazine issue (2/2018)
 
 For Reading Full Article Please visit this link (Download - Free) : https://bsdmag.org/download/table-level-security-postgresql/
+
 Github PDF Download , PDF File BSD-Magazine issue (2/2018)
 
 For Reading Full Article Please visit this link (Download - Free) : https://github.com/DamonMohammadbagher/Exfiltration-and-Uploading-DATA-by-DNS-Traffic-AAAA-Records
