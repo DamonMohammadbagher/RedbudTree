@@ -10,7 +10,7 @@ For Reading Full Article Please visit this link (Download - Free) : https://bsdm
 
 Github PDF Download , PDF File BSD-Magazine issue (2/2018)
 
-For Reading Full Article Please visit this link (Download - Free) : https://github.com/DamonMohammadbagher/Exfiltration-and-Uploading-DATA-by-DNS-Traffic-AAAA-Records
+For Reading Full Article Please visit this link (Download - Free) : https://github.com/DamonMohammadbagher/Exfiltration-and-Uploading-DATA-by-DNS-Traffic-AAAA-Records-
 
 step 1:         
 /// for using "Listening Mode" UDP Port 53 should be opened before using this tool.         
